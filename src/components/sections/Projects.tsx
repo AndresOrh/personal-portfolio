@@ -34,7 +34,7 @@ export function Projects() {
             <div className="p-0">
               <iframe
                 title="Figma Embed Portfolio"
-                src="https://embed.figma.com/slides/fSamy5UHw0ZLp1eJJ4uG97/Portfolio?node-id=5-660&embed-host=share"
+                src="https://embed.figma.com/deck/fSamy5UHw0ZLp1eJJ4uG97/Portfolio?node-id=5-660&viewport=-4487%2C-28%2C0.42&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&embed-host=share"
                 width="800"
                 height="450"
                 style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }}
