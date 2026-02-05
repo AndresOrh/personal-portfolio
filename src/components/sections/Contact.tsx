@@ -32,7 +32,7 @@ export function Contact() {
             <h3 className="text-sm font-bold uppercase tracking-widest text-muted-foreground mb-8">Follow Me</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {[
-                { name: 'LinkedIn', icon: Linkedin, href: 'www.linkedin.com/in/andrés-orihuela-otero-883b541a0' },
+                { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/in/andrés-orihuela-otero-883b541a0' },
               ].map((social) => (
                 <Link 
                   key={social.name} 
