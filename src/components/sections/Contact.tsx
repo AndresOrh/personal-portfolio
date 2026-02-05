@@ -25,15 +25,6 @@ export function Contact() {
                 </div>
                 andres211198@hotmail.com
               </a>
-              <a 
-                href="tel:+527775237017" 
-                className="flex items-center text-xl font-medium hover:text-secondary transition-colors group"
-              >
-                <div className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center mr-6 group-hover:bg-secondary group-hover:border-secondary transition-all">
-                  <Phone className="h-5 w-5" />
-                </div>
-                +52 777 523 7017
-              </a>
             </div>
           </div>
 
@@ -41,8 +32,7 @@ export function Contact() {
             <h3 className="text-sm font-bold uppercase tracking-widest text-muted-foreground mb-8">Follow Me</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {[
-                { name: 'LinkedIn', icon: Linkedin, href: 'https://linkedin.com' },
-                { name: 'GitHub', icon: Github, href: 'https://github.com' }
+                { name: 'LinkedIn', icon: Linkedin, href: 'www.linkedin.com/in/andrés-orihuela-otero-883b541a0' },
               ].map((social) => (
                 <Link 
                   key={social.name} 

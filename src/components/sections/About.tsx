@@ -10,8 +10,8 @@ export function About() {
   return (
     <section id="about" className="section-padding bg-black/20">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div className="flex justify-center lg:justify-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          <div className="flex justify-center lg:justify-center">
             <div className="relative group">
               {/* Decorative background blur */}
               <div className="absolute -inset-4 bg-gradient-to-tr from-primary/30 to-secondary/30 rounded-full blur-2xl group-hover:blur-3xl transition-all duration-500 opacity-70" />
@@ -30,7 +30,7 @@ export function About() {
           </div>
 
           <div>
-            <h2 className="text-3xl md:text-5xl font-headline font-bold mb-8">
+            <h2 className="text-3xl md:text-5xl font-headline font-bold mb-3">
               About <span className="text-gradient">Me</span>
             </h2>
             

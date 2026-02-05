@@ -45,17 +45,17 @@ const experiences = [
 export function Experience() {
   return (
     <section id="experience" className="section-padding">
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+      <div className="container mx-auto px-6 justify-center items-center">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-6">
           <div className="max-w-2xl">
             <h2 className="text-sm font-bold text-secondary uppercase tracking-[0.2em] mb-4">Experience</h2>
             <h3 className="text-4xl md:text-5xl font-headline font-bold">Work History</h3>
           </div>
         </div>
 
-        <div className="space-y-8">
+        <div className="space-y-4">
           {experiences.map((exp, index) => (
-            <Card key={index} className="glass-card overflow-hidden group hover:border-primary/50 transition-colors duration-500">
+            <Card key={index} className="glass-card overflow-hidden group hover:border-primary/50 transition-colors duration-500 max-w-7xl">
               <CardContent className="p-0">
                 <div className="grid grid-cols-1 lg:grid-cols-12">
                   <div className="lg:col-span-4 p-8 bg-white/5">
